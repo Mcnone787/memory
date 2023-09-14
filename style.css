@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  padding:0;
+  margin:0;
+}
+input{
+  display:block;
+  margin-top: 20px;
+align-items: center;
+}
+.block{
+  display: block;
+}
+#caja{
+ display: flex;
+  justify-content: center;
+}
+#caja2{
+ 
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+padding: 40px;
+  border-radius: 20px;
+      display: flex;
+    justify-content: center;
+}
+#caja3{
+  margin:10px;
+}
+.flex_main{
+  display: flex;
+}
+.row_flex{
+  display: flex;
+  flex-direction: column;
+}
+#users{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#h4_users{
+
+}
+
+input{
+  padding: 5px;
+    border-top: 0px;
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #FFF;
+}
+  input::placeholder{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  input:focus{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+/*     border-bottom:3px #FFF solid; */
+    border-bottom-width: 9px solid #FFF;
+    outline: none;
+  }
+
+.divs_main{
+  display:inline-block;
+  border:solid 1px black;
+  width:90px;
+  height:90px;
+  margin: 0 auto;
+
+}
+#destino{
+  margin-left: 10px;
+}
+#background{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+#temporizador{
+    font-size: 25px;
+    padding: 2;
+    margin-left: 30px;
+}
+#temporizador_div_text{
+}
+#temporizador_text{
+      width: 100%;
+    padding: 20px;
+}
+.flexx{
+   
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.temporizador_main{
+  height: 90px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+#br_main{
+  background: #000000;
+  width: 50%;
+  height: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+#confeti_img{
+  width: 100%;
+  position: absolute;
+  top:0;  
+  z-index:1;
+  height:100vh;
+  }
+.imgs{
+  width:90px;
+  height:90px;
+}
+.display_none{
+  display:none;
+}
+#back_ranking{
+  width:60%;
+  height:200px;
+  margin:0 auto;
+  border:solid black 1px;
+  text-align:center;
+}
